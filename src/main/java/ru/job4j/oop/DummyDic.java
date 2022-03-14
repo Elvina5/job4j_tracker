@@ -1,7 +1,5 @@
 package ru.job4j.oop;
 
-import javax.swing.text.Position;
-
 public class DummyDic {
 
     public String engToRus(String eng) {
