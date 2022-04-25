@@ -29,9 +29,7 @@ public class Calculator {
         Calculator calculator = new Calculator();
         int rslMultiply = calculator.multiply(5);
         int rslMinus = Calculator.minus(16);
-        Calculator divide = new Calculator();
         int rslDivide = calculator.divide(30);
-        Calculator sumAllOperation = new Calculator();
         int rslSumAllOperation = calculator.sumAllOperation(5);
         System.out.println(rslSum);
         System.out.println(rslMultiply);
