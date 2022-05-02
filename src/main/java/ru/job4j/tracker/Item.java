@@ -1,7 +1,16 @@
 package ru.job4j.tracker;
+
+import java.time.LocalDateTime;
+
 public class Item {
     private int id;
     private String name;
+    private LocalDateTime created;
+
+    public LocalDateTime getCreated() {
+        LocalDateTime currentDateTime = LocalDateTime.now();
+        return currentDateTime;
+    }
 
     public Item(int id, String name) {
         this.id = id;
